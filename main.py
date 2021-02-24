@@ -1,5 +1,9 @@
+import math
 
 a = int ( input ("Digite el valor a: "))
+b = int ( input ("Digite el valor b: "))
 c = int ( input ("Digite el valor c: "))
 
-print("El producto es", a*c, "y a al cuadrado es ", a**2)
+d = math.sqrt(b**2 - 4*a*c)
+
+print("El valor de d es : ", d)
